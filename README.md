@@ -1,3 +1,5 @@
+#DarkArtek / Luca A
+
 # Language exercises
 
 Put each solution in a separate python module named `excerciseN.py` where `N` is the number of the excercise.
