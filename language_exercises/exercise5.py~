@@ -1,0 +1,7 @@
+import json
+status = '{'name': 'LAB1', 'network_status': 'ok'},
+        {'name': 'LAB2','network_status': 'down'},
+        {'name': 'LAB3','network_status': 'ok'}'
+convert = json.loads(status)
+
+print convert 
