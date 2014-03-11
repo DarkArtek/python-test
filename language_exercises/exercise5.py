@@ -1,9 +1,12 @@
+import requests
 import json
-status = {
-	"LAB1": "Ok",
-	"LAB2": "Down",
-	"LAB3": "Ok"
-}
-convert = json.loads(status)
+#r= requests.get('http://ialpython.apiary.io/laboratories')
+#print r.text
 
-print convert 
+url ='http://ialpyton.apiary.io/laboratories'
+payload = {'network_status':'down'}
+
+r = requests.get(url,data=json.dumps(payload))
+
+print r.text
+
