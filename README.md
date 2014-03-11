@@ -112,6 +112,6 @@ Push all the excercises to your github repo and make `mpaolini` a contributor:
  - go to repo settings (bottom right), then collaborators (left column), write `mpaolini` and click "Add collaborator"
  - `git init`
  - `git add .`
- - `git commit -m test finished`
+ - `git commit -m 'test finished'
  - `git remote add origin https://github.com/<username>/ial-python-test.git` 
  - `git push -u origin master`
