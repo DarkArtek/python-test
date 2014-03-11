@@ -1,14 +1,14 @@
-def add_dict(dict_1, dict_2):
-	res = list.append(dict_2)
+def add_dict(bands, countries):
+	res = list.append(countries)
 	print res
-	dict_1 = {
-			'pippo': 'a',
-			'pluto': 'b',
-			'paperino': 'c'
+	bands = {
+			'IronMaiden': '1',
+			'BlackSabbath': '2',
+			'ACDC': '3'
 	}
 
-	dict_2 = {
-			'qui': 'd',
-			'quo': 'e',
-			'qua': 'f'
+	countries = {
+			'UK': '4',
+			'USA': '5',
+			'USA': '6'
 	}
